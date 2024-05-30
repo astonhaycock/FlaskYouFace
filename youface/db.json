@@ -1,0 +1,12 @@
+{
+    "posts": {},
+    "users": {
+        "1": {
+            "friends": [],
+            "password": "test",
+            "post_count": 4,
+            "style": "youface.css",
+            "username": "test"
+        }
+    }
+}

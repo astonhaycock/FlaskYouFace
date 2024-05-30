@@ -1,0 +1,94 @@
+.jumbotron {
+    padding: 0.5em 0.6em;
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+        .btn {
+            padding: 0.5em;
+        }
+    }
+}
+/* Base and Backgrounds */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .navbar, .jumbotron, .card, .btn {
+    background-color: #242424;
+    border: none;
+  }
+  
+  /* Navbar */
+  .navbar-dark .navbar-nav .nav-link {
+    color: #e0e0e0;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: #e0e0e0;
+  }
+  
+  /* Text and Links */
+  a {
+    color: #ffffff;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #1e1e1e;
+  }
+  
+  .card-title, .card-text, .card-subtitle {
+    color: #e0e0e0;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #0800ee;
+    border-color: #6200ee;
+  }
+  
+  .btn-primary:hover {
+    background-color: #577bf1be;
+    border-color: #3700b3;
+  }
+  
+  /* Forms and Inputs */
+  .form-control {
+    background-color: #333333;
+    color: #e0e0e0;
+  }
+  
+  .form-control::placeholder {
+    color: #ffffff;
+  }
+  .card-body{
+    background-color: #5c5858;
+  }
+  /* Adjusting for custom components */
+  /* Add any specific class or ID adjustments here, following the structure above. */
+  
+  .settingContainer{
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+  }
+  .settingSave{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .settingSave form{
+    display: inline-block;
+  }
+  .img-responsive{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
